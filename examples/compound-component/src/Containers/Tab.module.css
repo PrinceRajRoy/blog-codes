@@ -1,0 +1,29 @@
+.header {
+  background: #161515;
+  color: #ffffff;
+  display: flex;
+}
+
+.item {
+  padding: 1rem 3rem;
+  cursor: pointer;
+}
+
+.item:hover {
+  background-color: #282c34;
+}
+
+.selected {
+  background-color: #202227;
+}
+
+.body {
+  background-color: #282c34;
+  display: none;
+  padding: 2rem 1rem;
+  color: #ffffff;
+}
+
+.selectedBody {
+  display: block;
+}
